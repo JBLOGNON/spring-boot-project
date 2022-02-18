@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
 
 eureka:
   instance:
@@ -15,15 +15,11 @@ eureka:
 
 spring:
   application:
-    name: show-weather
+    name: weather
 
 management:
   security:
     enabled: false
-  endpoints:
-    web:
-      exposure:
-        include: hystrix.stream
 
 logging:
   level:
